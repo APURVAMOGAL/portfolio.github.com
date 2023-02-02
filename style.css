@@ -1,0 +1,152 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+</style>
+*{
+    margin:0;
+    padding: 0;
+
+}
+.sidebar{
+    background-color:rgb(152, 16, 6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans ', Geneva, Verdana, sans-serif;
+    height: 100vw;
+    color:rgb(211, 225, 237);
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style-: none;
+    font-size: 40px;
+    padding-left: 4px;
+    padding-bottom: 50px;
+}
+
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: azure;
+}
+.main{
+    background-color: rgb(244, 197, 141);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    width: 90vw;
+}
+.container{
+    display:flex
+}
+.infocontainer{
+    
+    height: 40vh;
+    width: 40vw;
+    margin:144px auto;
+    display: flex;
+    size: 100vh;
+    padding-bottom: 100px;
+    padding-right: 300px;
+    padding-top: 0px;
+}
+.hello{
+    font-size: 80px;
+    font: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name{
+    font-size:50px;
+    font:bold;
+
+}
+.about{
+    font: bold;
+    font-size: 30px;
+}
+.buttons{
+    margin-top: 30px;
+}
+
+.buttons button{
+    background-color: rgba(11, 230, 51, 0.475);
+    color:rgba(7, 11, 7, 0.945);
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-clip: calc(7);
+    font-weight: bold;
+    font-size:21px;
+    margin:3px; 
+    
+
+}
+.buttons button:hover{
+    background-color: beige;
+    cursor: pointer;
+
+}
+.moreinfo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:crimson;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.contactform{
+    padding left: 10px;
+    text align: centre;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 9px;
+    padding right: 70px;
+}
+.contactform div{
+    padding: 25px;
+    font-size: 29px;
+    flex-direction: column;
+}
+.contactform div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 5px;
+}
+#emailHelp{
+    font-size: 30px;
+    color: rgb(19, 6, 99);
+    margin: 5px;
+}
+#form-check input{
+    width:24px;
+    margin:3px;
+}
+.btn{background-color: rgba(19, 232, 19, 0.475);
+    color:rgba(1, 16, 1, 0.945);
+    padding: 8px 14px;
+    border-radius: 22px;
+    background-clip: calc(7);
+    font-weight: bold;
+    font-size:21px;
+    margin: 7px; 
+}
+.btn:hover{
+    background-color: beige;
+    cursor: pointer;
+    
+}
+.container{
+    display:flex
+}
+.lifecontainer{
+
+    
+    height: 40vh;
+    width: 40vw;
+    margin:144px auto;
+    display: flex;
+    size: 100vh;
+    padding-bottom: 100px;
+    padding-right: 300px;
+    padding-top: 0px;
+}
+
+    
+
